@@ -1,1 +1,149 @@
-/* Add CSS styling here */
+/* CSS Reset */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 62.5%;
+	font: inherit;
+    vertical-align: baseline;
+    text-decoration: none;
+    color: black;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/*----------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+body {
+    background-color: #717171;
+}
+.main{
+    width: 90%;
+    height: 100%;
+    margin: 0 auto;
+    background: #E9E9E9;
+    font-family: Helvetica, Sans-serif;
+}
+/*header {
+    
+}*/
+h1 {
+    font-size: 3rem;
+    padding-top: 2%;
+    padding-left: 1%;
+    margin-bottom: 1%;
+    color: #212121;
+}
+nav {
+    margin-left: 10%;
+    width: 25%;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 1%;
+}
+
+
+
+
+
+
+.navBar {
+    border: 1px solid black;
+    padding: 0 10%;
+}
+.content {
+    background: #E9E9E9;
+    border: 1px solid black;
+}
+
+
+footer{
+    width: 90%;
+    border: 1px solid black;
+    padding: 5%
+}
+h2 {
+    text-align: center;
+    margin-bottom: 2.5%;
+}
+footer nav{
+    border: 1px solid black;
+    border-radius: 25px;
+    height: 100px;
+    width: 20%;
+    margin: 0 auto;
+    background-color: black;
+}
+footer nav a {
+    margin: auto;
+    color: white;
+}
+
+img.init {
+    padding: 2.5%;
+    height: auto;
+    width: 35%;
+}
+
+
+div.mainProj > img {
+    float: left;
+}
+.projText {
+    border: 1px solid black;
+    height: 460px;
+    width: auto;
+    text-align: center;
+    padding-top: 2.5%;
+}
+h3 {
+    margin: 5% 0 3% 0;
+    font-size: 2.5rem;
+}
+
+ div .projText a {
+    font-size: 1.8rem;
+    border: 1px solid black;
+    padding: 2%;
+    border-radius: 10px;
+    background-color: #999999;
+
+}
+
+.projText p {
+    margin: 3%;
+    font-size: 2rem;
+}
+
