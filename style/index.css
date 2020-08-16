@@ -83,15 +83,20 @@ nav {
     border: 1px solid black;
     padding: 0 10%;
 }
+#currentPage {
+    background-color: black;
+    color:white;
+}
 .content {
-    background: #E9E9E9;
+    background-color: white;
+    padding: 1%;
+}
+img {
     border: 1px solid black;
 }
 
-
 footer{
     width: 90%;
-    border: 1px solid black;
     padding: 5%
 }
 h2 {
@@ -112,7 +117,7 @@ footer nav a {
 }
 
 img.init {
-    padding: 2.5%;
+    margin: 2.5%;
     height: auto;
     width: 35%;
 }
@@ -122,7 +127,6 @@ div.mainProj > img {
     float: left;
 }
 .projText {
-    border: 1px solid black;
     height: 460px;
     width: auto;
     text-align: center;
@@ -135,7 +139,6 @@ h3 {
 
  div .projText a {
     font-size: 1.8rem;
-    border: 1px solid black;
     padding: 2%;
     border-radius: 10px;
     background-color: #999999;
@@ -146,4 +149,35 @@ h3 {
     margin: 3%;
     font-size: 2rem;
 }
+.ex1 {
+    display: flex;
+    justify-content: space-between;
+    padding: 1%;
+}
 
+.desc1 {
+    display: flex;
+    justify-content: space-between;
+    font-family: Dancing Script;
+}
+.desc1 p {
+    margin: 0 1%;
+    width: 16%;
+    text-align: center;
+}
+.ex2 {
+    display: flex;
+    justify-content: space-between;
+    padding: 1%;
+}
+
+.desc2 {
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Dancing Script', cursive;
+}
+.desc2 p {
+    margin: 0 1%;
+    width: 16%;
+    text-align: center;
+}
