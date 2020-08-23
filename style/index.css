@@ -118,13 +118,18 @@ footer nav a {
     color: white;
 }
 
+
+
+.mainProj {
+    width: 100%;
+    height: 35%;
+    overflow: auto;
+}
 img.init {
     margin: 2.5%;
     height: auto;
-    width: 35%;
+    width: 30%;
 }
-
-
 div.mainProj > img {
     float: left;
 }
@@ -133,6 +138,7 @@ div.mainProj > img {
     width: auto;
     text-align: center;
     padding-top: 2.5%;
+    margin: 0 5%;
     
 }
 h3 {
@@ -155,14 +161,15 @@ h3 {
 }
 .ex1 {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     padding: 1%;
     max-width: 100%;
+    text-align: center;
 }
 
 .desc1 {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 .desc1 p {
     margin: 0 1%;
@@ -171,14 +178,15 @@ h3 {
 }
 .ex2 {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     padding: 1%;
     max-width: 100%;
+    text-align: center;
 }
 
 .desc2 {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 .desc2 p {
     margin: 0 1%;
